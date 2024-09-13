@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+   <title>untitled</title>
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+   <meta name="generator" content="Geany 1.37.1" />
+   <meta content="width=device-width, initial-scale=1" name="viewport" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <link rel="stylesheet" href="index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div id="tierWrapper">
+      <div id="tierApplicationContainer">
+	 <div id="applicationContainer">
+	    <div id="applTopContainer">
+	       <img width="24" height="24" src="https://img.icons8.com/sf-regular/48/delete-sign.png" alt="delete-sign"/>
+	    </div>
+	    <div id="applChoiceContainer">
+	       <p class="choiceText">Jouw keuze</p>
+	       <h4>Starter</h4>
+	    </div>
+	    <form id="choiceForm">
+	       <div id="formTop">
+		  <input type="text" class="inputForm" id="firstname" placeholder="Voornaam">
+		  <input type="text" class="inputForm" id="lastname" placeholder="Achternaam">
+	       </div>
+	       <input type="text" class="inputForm" id="businessname" placeholder="GSM nummer">
+	       <input type="email" class="inputForm" id="email" placeholder="E-mail">
+	       <input type="submit" id="submitBtn" value="Aanvragen">
+	    </form>
+	 </div>
+      </div>   
+   </div>
+   
+   <div id="bodyContainer">
+      <div id="navContainer">
+	 <div id="nav">
+	    <nav>
+	       <a href="">
+		  <img src="img/logo3.png" id="logo">
+	       </a>
+	       <div id="navLinks">
+		  <li><a onmouseover="openOverlay()" class="navLink" id="aanbodBtn">
+		     <span class="linkFiller"></span>
+		     <div class="linkText">Aanbod</div>
+		     <span class="linkFiller">
+			<span class="linkBall activeBall"></span>
+		     </span>
+		  </a></li>
+		  <li><a href="" class="navLink">
+		     <span class="linkFiller"></span>
+		     <div class="linkText">Diensten</div>
+		     <span class="linkFiller">
+			<span class="linkBall"></span>
+		     </span>
+		  </a></li>
+		  <li><a href="" class="navLink">
+		     <span class="linkFiller"></span>
+		     <div class="linkText">Recensies</div>
+		     <span class="linkFiller">
+			<span class="linkBall"></span>
+		     </span>
+		  </a></li>
+		  <li><a href="" class="navLink">
+		     <span class="linkFiller"></span>
+		     <div class="linkText">Over ons</div>
+		     <span class="linkFiller">
+			<span class="linkBall"></span>
+		     </span>		  
+		  </a></li>
+	       </div>
+	       
+	       <div id="navRight">
+		  <a href="" id="navLanguage">NL</a>
+	       </div>
+	    </nav>	 
+	 </div>
+	 
+	 <div id="navOverlayContainer">
+	    <div id="overlayContainer">
+	       <div id="overlayContent">
+		  <div id="overlayTextContainer">
+		     <h3>Aanbod</h3>
+		  </div>
+		  <a href="" class="overlayBoxContainer">
+		     <div class="overlayBox"></div>
+		     <div class="overlayNavBtn">
+			<p class="overlayBtnText">Starter</p>
+			<img width="24" height="24" src="img/arrow-g.png" alt="long-arrow-right"/>
+		     </div>
+		  </a>
+		  <a href="" class="overlayBoxContainer">
+		     <div class="overlayBox"></div>
+		     <div class="overlayNavBtn">
+			<p class="overlayBtnText">Premium</p>
+			<img width="24" height="24" src="img/arrow-g.png" alt="long-arrow-right"/>
+		     </div>
+		  </a>
+	       </div>
+	    </div>
+	 </div>
+      </div>
+      
+      <div id="contentContainer">
+	 <h1>Een website voor jouw business<br>Simpel & zorgenloos</h1>
+	 
+	 <div id="mainButtons">
+	    <a href="" id="contactBtn">Bekijk het aanbod
+	    </a>
+	    <a href="" id="exploreBtn">Ontdek meer
+	       <img width="24" height="24" src="img/arrow-g.png" alt="long-arrow-right"/>
+	    </a>
+	 </div>
+	 
+	 <div id="firstSection">
+	    <div id="layerOne">
+	       <div id="layerOneVisual">
+		  <div id="visTop">
+		     <div id="visTopLeft"></div>
+		     <div id="visTopMid">
+			<div class="visTopText"></div>
+			<div class="visTopText"></div>
+			<div class="visTopText"></div>
+		     </div>
+		     <div id="visTopRight">
+			<div class="visText"></div>			
+		     </div>
+		  </div>
+		  <div id="visMid">
+		     <div class="visBox"></div>
+		     <div class="visBox"></div>
+		  </div>
+		  <div id="visBottom"></div>
+	       </div>
+	    </div>
+	    
+	    <div id="layerTwoVisual"></div>
+	    <div id="layerThreeVisual">
+	       <h6></h6>
+	    </div>
+	 </div>
+	 
+	 
+	 <div id="secondSection">
+	    <div id="secondTitleContainer">
+	       <h2>Klaar om te beginnen?</h2>
+	       <h5>Kies het pakket dat best bij je past en geniet van alle bijkomende voordelen</h5>	    
+	    </div>
+	    
+	    <div id="secondGrid">
+	       <div class="gridBoxContainer nonMainBox">
+		  <h3>Starter</h3>
+		  <div class="tierDescriptionContainer">
+		     <p class="tierDescription">De essentials om je op het juiste pad te zetten</p>		     
+		  </div>
+		  <div class="boxPriceContainer">
+		     <p class="price upper">€99</p>
+		     <p class="price">/maand</p>
+		  </div>
+		  <div id="tierButtonContainer">
+		     <a class="tierBtn" id="starterTier">
+			Ontdek meer
+			<img width="24" height="24" src="img/arrow-w.png" alt="long-arrow-right"/>
+		     </a>		  
+		  </div>
+		  <div class="featuresContainer">
+		     <div class="featureBox">
+			<div class="featureTickContainer tickTop">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" class="imgTop" alt="checkmark--v1"/>
+			</div>
+			<div>
+			   <p class="feature">Webdesign op maat</p>
+			   <p class="subFeature">Max. 3 pagina's + contactformulier</p>			
+			</div>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Ontwikkeling van website</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer tickTop">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" class="imgTop" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Gelimiteerd aantal aanpassingen per maand</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Hosting & onderhoud</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">24/7 support</p>
+		     </div>
+		  </div>
+	       </div>
+	       
+	       <div class="gridBoxContainer mainBox">
+		  <h3>Premium</h3>
+		  <div class="tierDescriptionContainer">
+		     <p class="tierDescription">All-in-one, zorgenloos & compleet naar de behoeftes van je zaak.</p>		     
+		  </div>
+		  <div class="boxPriceContainer">
+		     <p class="price upper">€159</p>
+		     <p class="price">/maand</p>
+		  </div>
+		  <div id="tierButtonContainer">
+		     <a class="tierBtn">
+			Ontdek meer
+			<img width="24" height="24" src="img/arrow-w.png" alt="long-arrow-right"/>
+		     </a>		  
+		  </div>
+		  <div class="featuresContainer">
+		     <div class="featureBox">
+			<div class="featureTickContainer tickTop">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" class="imgTop" alt="checkmark--v1"/>
+			</div>
+			<div>
+			   <p class="feature">Webdesign op maat</p>
+			   <p class="subFeature">Ongelimiteerd aantal pagina's + contactformulier</p>			
+			</div>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Ontwikkeling van website</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer tickTop">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" class="imgTop" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Ongelimiteerd aantal aanpassingen per maand</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">SEA & SEO optimalisatie</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer tickTop">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" class="imgTop" alt="checkmark--v1"/>
+			</div>
+			<div>
+			   <p class="feature">Gepersonaliseerde email</p>
+			   <p class="subFeature">Bv. naam@jouwzaak.be</p>
+			</div>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">Hosting & onderhoud</p>
+		     </div>
+		     <div class="featureBox">
+			<div class="featureTickContainer">
+			   <img width="16" height="16" src="https://img.icons8.com/ios-glyphs/30/checkmark--v1.png" alt="checkmark--v1"/>
+			</div>
+			<p class="feature">24/7 support</p>
+		     </div>
+		  </div>
+	       </div>
+	    </div>
+	 </div>
+      
+	 <div id="thirdSection">
+	    <div id="secondTitleContainer">
+	       <h2>Ervaringen van onze klanten</h2>
+	       <h5>... in het geval dat je nog niet overtuigd was</h5>	    
+	    </div>
+	    
+	    <div id="thirdContent">
+	       <div id="reviewsContainer">
+		  <div class="reviewsColumn">
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Exact wat ik nodig had! 10/10"</p>
+			</div>
+		     </div>
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		  </div>
+		  <div class="reviewsColumn nonMob">
+		     <div class="reviewBox columnMargin">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum. Lorem ipsum lorem ipsum lorem ipsum lorem ipsum."</p>
+			</div>
+		     </div>
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		  </div>
+		  <div class="reviewsColumn nonMob">
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		  </div>
+		  <div class="reviewsColumn">
+		     <div class="reviewBox columnMargin">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		     <div class="reviewBox">
+			<div class="reviewBoxTop">
+			   <div class="reviewImageContainer"></div>
+			   <p class="reviewClient">Belmin</p>
+			</div>
+			
+			<div class="reviewBoxBottom">
+			   <p class="reviewText">"Lorem ipsum lorem ipsum lorem ipsum lorem ipsum"</p>
+			</div>
+		     </div>
+		  </div>
+	       </div>
+	       
+	       <div id="thirdOverlay"></div>
+	    </div>
+	    <div id="reviewsBtnContainer">
+	       <a class="tierBtn">
+		  Lees alle recensies
+		  <img width="24" height="24" src="img/arrow-w.png" alt="long-arrow-right"/>
+	       </a>
+	    </div>
+	 </div>
+      
+	 <div id="">
+	 </div>
+      </div>
+   </div>
+</body>
+
+<footer>
+   <div id="footerContainer">
+      <p>sfd</p>
+      <div class="footerColumn">
+	 <a href="" class="footerLink">Over ons</a>
+	 <a href="" class="footerLink">Contact</a>
+	 <a href="" class="footerLink">Gebruiksvoorwaarden</a>
+	 <a href="" class="footerLink">Veelgestelde vragen</a>
+	 <a href="" class="footerLink">Placeholder</a>
+      </div>
+      <div class="footerColumn">
+	 <a href="" class="footerLink">Over ons</a>
+	 <a href="" class="footerLink">Contact</a>
+	 <a href="" class="footerLink">Gebruiksvoorwaarden</a>
+      </div>
+      <p>sfd</p>
+   </div>
+</footer>
+
+<script>
+   
+   function openOverlay() {
+      document.getElementById("navOverlayContainer").style.display = "block";
+   }
+   
+    window.addEventListener('mouseup',function(event){
+        var pol = document.getElementById('overlayContainer');
+        var over = document.getElementById('overlayContent');
+        var cont = document.getElementById('navOverlayContainer');
+        var aan = document.getElementById('aanbodBtn');
+        if(event.target != pol && event.target != over){
+            cont.style.display = 'none';
+        }
+  })
+</script>
+
+</html>

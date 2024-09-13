@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	width: 100vw;
+	min-height: 100vh;
+	height: auto;
+	overflow-x: hidden;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #f9f9f9;
+}
+
+#contentContainer {
+	width: 600px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+h1 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 2.5rem;
+	font-weight: 800;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -2px;
+}
+
+h5 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+}
+
+
+#sectionOne {
+	padding: 60px 40px;
+}
+
+#logo {
+	width: 150px;
+	height: auto;
+	image-rendering: crisp-edges;
+}
+
+#sectionTwo {
+	padding: 20px 40px 60px 40px;
+}
+
+#sectionThree {
+	padding: 40px;
+	padding-top: 0px;
+}
+
+p {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+#sectionFour {
+	margin: 40px;
+	margin-top: 0px;
+	border-radius: 15px;
+	padding: 40px;
+	background-color: #f7f7f7;
+	display: grid;
+	grid-template-columns: 40% auto;
+	grid-row-gap: 5px;
+}
+
+.b {
+	font-weight: 700;
+}
+
+.bl {
+	color: #040404;
+}
+
+#sectionFive {
+	margin: 40px;
+	margin-top: 0px;
+	padding: 40px;
+	border: 1px solid #d3d3d3;
+	border-radius: 15px;
+}
+
+h2 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1.75rem;
+	font-weight: 800;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -1px;
+	text-align: center;
+}
+
+p.helpText {
+	font-family: 'Manrope', 'sans-serif';
+	color: #555555;
+	font-size: 1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#sectionFiveButtons {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 10px;
+	margin-top: 40px;
+}
+
+#emailBtn {
+	font-family: 'Manrope', 'sans-serif';
+	color: #FFFFFF;
+	font-size: 1rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 5px;
+	background-color: #6F00FF;
+	padding: 1rem 1.7rem;
+	display: flex;
+	grid-gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
+
+#callBtn {
+	font-family: 'Manrope', 'sans-serif';
+	color: #555555;
+	font-size: 1rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 5px;
+	padding: 1rem 1.7rem;
+	border: 1px solid #d3d3d3;
+	display: flex;
+	grid-gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
+
+#sectionSix {
+	padding: 40px;
+}
+
+
+
+
+
+
+
