@@ -716,7 +716,7 @@ h3 {
 	width: 100%;
 	display: grid;
 	grid-template-columns: max-content auto;
-	grid-column-gap: 20px;
+	grid-column-gap: 15px;
 	padding: 1.1rem 1.3rem;
 	align-items: center;
 	outline: none;
@@ -1411,7 +1411,7 @@ h3 {
 	right: 0;
 	height: 100%;
 	width: 100vw;
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.5);
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;
@@ -1422,7 +1422,7 @@ h3 {
 	width: 100%;
 	height: max-content;
 	padding: 40px 30px;
-	border-radius: 15px 15px 0px 0px;
+	border-radius: 15px;
 }
 
 
