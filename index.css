@@ -112,16 +112,19 @@ nav {
 }
 
 #navLanguage {
-	font-family: 'Manrope', 'sans-serif';
-	color: #555555;
-	font-size: 0.9rem;
-	font-weight: 600;
-	font-optical-sizing: auto;
-	font-style: normal;
+	height: 26px;
+	width: 26px;
+	background-color: red;
+	outline: none;
+	border: 1px solid #f3f3f3;
 	border-radius: 5px;
-	background-color: #FFFFFF;
-	padding: 0.6rem 1.5rem;
-	border: 1px solid #D3D3D3;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#langFlag {
+	height: 100%;
+	width: 100%;
 }
 
 #navOverlayContainer {
@@ -815,7 +818,13 @@ footer {
 }
 
 
+@media only screen and (min-width: 601px) {
 
+#mobileNavBtn {
+	display: none;
+}
+
+}
 
 
 
@@ -855,9 +864,27 @@ nav {
 	width: 90%;
 	height: auto;
 	padding: 3rem 0rem;
-	display: flex;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: max-content auto max-content;
+	grid-column-gap: 20px;
 	align-items: center;
+}
+
+#mobileNavBtn {
+	width: 26px;
+	height: 26px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	background-image:url('https://img.icons8.com/material-rounded/24/menu--v1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#logoContainer {
+	align-items: center;
+	display: flex;
 }
 
 #logo {
@@ -892,16 +919,18 @@ nav {
 }
 
 #navLanguage {
-	font-family: 'Manrope', 'sans-serif';
-	color: #555555;
-	font-size: 0.9rem;
-	font-weight: 600;
-	font-optical-sizing: auto;
-	font-style: normal;
+	height: 26px;
+	width: 26px;
+	background-color: red;
+	outline: none;
+	border: 1px solid #f3f3f3;
 	border-radius: 5px;
-	background-color: #FFFFFF;
-	padding: 0.6rem 1.5rem;
-	border: 1px solid #D3D3D3;
+	overflow: hidden;
+}
+
+#langFlag {
+	height: 100%;
+	width: 100%;
 }
 
 
@@ -920,7 +949,7 @@ h1 {
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
-	margin: 4rem 0rem 4rem 0rem;
+	margin: 4rem 0rem 6rem 0rem;
 	letter-spacing: -2px;
 	text-align: center;
 	width: 80%;
