@@ -14,23 +14,24 @@
 </head>
 
 <body>
-   
-   <div id="languageOverlay">
-      <div id="languagePickContainer">
-	 <h3 id="languageText">Selecteer taal</h3>
-	 <div id="languagePick">
-	    <button class="languageBtn activeLanguage">
-	       <span class="languageFlag nl"></span>
-	       <h5 class="languageName">Nederlands</h5>
-	    </button>
-	    <button class="languageBtn">
-	       <span class="languageFlag fr"></span>
-	       <h5 class="languageName">Français</h5>
-	    </button>
-	    <button class="languageBtn">
-	       <span class="languageFlag en"></span>
-	       <h5 class="languageName">English</h5>
-	    </button>
+   <div id="languageContainer">
+      <div id="languageOverlay">
+	 <div id="languagePickContainer">
+	    <h3 id="languageText">Selecteer taal</h3>
+	    <div id="languagePick">
+	       <button class="languageBtn activeLanguage">
+		  <span class="languageFlag nl"></span>
+		  <h5 class="languageName">Nederlands</h5>
+	       </button>
+	       <button class="languageBtn">
+		  <span class="languageFlag fr"></span>
+		  <h5 class="languageName">Français</h5>
+	       </button>
+	       <button class="languageBtn">
+		  <span class="languageFlag en"></span>
+		  <h5 class="languageName">English</h5>
+	       </button>
+	    </div>
 	 </div>
       </div>
    </div>
@@ -404,15 +405,12 @@
    function openOverlay() {
       document.getElementById("navOverlayContainer").style.display = "block";
    }
-   
-    window.addEventListener('mouseup',function(event){
-        var pol = document.getElementById('overlayContainer');
-        var over = document.getElementById('overlayContent');
-        var cont = document.getElementById('navOverlayContainer');
-        var aan = document.getElementById('aanbodBtn');
-        if(event.target != pol && event.target != over){
-            cont.style.display = 'none';
-        }
+
+
+   $(document).on('click', function (e) {
+       if ($(e.target).closest("#languagePickContainer").length === 0) {
+	   $("#languageContainer").show();}
+
   })
 </script>
 
