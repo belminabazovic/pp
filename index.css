@@ -684,7 +684,9 @@ h3 {
 	z-index: 50;
 	top: 0;
 	left: 0;
-	height: 100vh;
+	bottom: 0;
+	right: 0;
+	height: 100%;
 	width: 100vw;
 	background: rgba(0,0,0,0.3);
 	display: flex;
@@ -758,6 +760,7 @@ h3 {
 .languageName {
 	text-align: left;
 	color: #040404;
+	font-weight: 600;
 }
 
 
@@ -1404,11 +1407,14 @@ h3 {
 	z-index: 50;
 	top: 0;
 	left: 0;
-	height: 100vh;
+	bottom: 0;
+	right: 0;
+	height: 100%;
 	width: 100vw;
 	background: rgba(0,0,0,0.3);
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
 }
 
 #languagePickContainer {
