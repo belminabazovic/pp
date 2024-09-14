@@ -207,7 +207,7 @@ h1 {
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
-	margin: 10rem 0rem 4rem 0rem;
+	margin: 10rem 0rem 0rem 0rem;
 	letter-spacing: -3px;
 	text-align: center;
 }
@@ -249,31 +249,10 @@ h1 {
 	align-items: center;
 }
 
-#firstSection {
-	border-radius: 15px;
-	background-color: #f9f9f9;
-	width: 90%;
-	max-width: 1400px;
-	aspect-ratio: 1 / 0.50;
-	margin: 10rem 0rem;
-	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
-#layerOne {
+#designMockupContainer {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	position: relative;
-}
-
-#layerOneVisual {
-	width: 60%;
-	height: 70%;
 	background-color: #fcfcfc;
 	border-radius: 15px 15px 0px 0px;
 	border: 1px solid #f3f3f3;
@@ -348,31 +327,6 @@ h1 {
 	background-color: #f2f2f2;
 	border-radius: 15px 15px 0px 0px;
 	width: 100%;
-}
-
-#layerTwoVisual {
-	position: absolute;
-	z-index: 2;
-	width: 10%;
-	aspect-ratio: 1 / 1;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	left: 12%;
-	top: 70%;
-	display: none;
-}
-
-#layerThreeVisual {
-	position: absolute;
-	z-index: 3;
-	width: 18%;
-	aspect-ratio: 1 / 0.5;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	left: 8%;
-	top: 35%;
-	padding: 25px;
-	display: none;
 }
 
 h6 {
@@ -948,6 +902,97 @@ footer {
 	display: none;
 }
 
+#firstSection {
+	border-radius: 15px;
+	background-color: #f9f9f9;
+	width: 90%;
+	max-width: 1400px;
+	aspect-ratio: 1 / 0.50;
+	margin: 5rem 0rem 10rem 0rem;
+	display: grid;
+	grid-template-columns: 1fr 60% 1fr;
+	grid-column-gap: 40px;
+	overflow: hidden;
+}
+
+.dummyBox {
+	background-color: #f5f5f5;
+}
+
+.leftOne {
+	border-radius: 0px 0px 15px 0px;
+}
+
+.leftTwo {
+	border-radius: 0px 15px 15px 0px;
+	width: 80%;
+}
+
+.leftThree {
+	border-radius: 0px 15px 15px 0px;
+	width: 50%;
+}
+
+.leftFour {
+	border-radius: 0px 15px 0px 0px;
+	width: 95%;
+}
+
+#leftSection {
+	display: grid;
+	grid-template-rows: 0.6fr 1.5fr 1.3fr 1.8fr;
+	grid-row-gap: 20px;
+}
+
+.rightOne {
+	border-radius: 0px 0px 0px 15px;
+	width: 60%;
+	justify-self: end;
+}
+
+.rightTwo {
+	border-radius: 15px 0px 0px 15px;
+	width: 90%;
+	justify-self: end;
+}
+
+.rightThree {
+	border-radius: 15px 0px 0px 15px;
+	justify-self: end;
+	width: 70%;	
+}
+
+.rightFour {
+	border-radius: 15px 0px 0px 0px;
+	width: 100%;
+	justify-self: end;
+}
+
+#leftSection {
+	display: grid;
+	grid-template-rows: 0.6fr 1.5fr 1.3fr 1.8fr;
+	grid-row-gap: 20px;
+}
+
+#rightSection {
+	display: grid;
+	grid-template-rows: 1fr 1.5fr 1.3fr 0.5fr;
+	grid-row-gap: 20px;
+}
+
+#middleSection {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto 70%;
+}
+
+#middleButtons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 }
 
 
@@ -1102,8 +1147,8 @@ h1 {
 	grid-gap: 10px;
 	display: flex;
 	flex-direction: column;
-	width: 80%;
-	margin-bottom: 40px;
+	width: 90%;
+	margin-bottom: 0px;
 }
 
 #contactBtn {
@@ -1132,30 +1177,44 @@ h1 {
 	background-color: #f9f9f9;
 	width: 90%;
 	aspect-ratio: 1 / 1.2;
-	margin: 0rem 0rem 5rem 0rem;
-	position: relative;
+	margin: 0rem 0rem 2.5rem 0rem;
+	display: grid;
+	grid-template-columns: 5% 90% 5%;
+	grid-row-gap: 0px;
+	overflow: hidden;
+}
+
+#leftSection {
+	display: block;
+}
+
+#rightSection {
+	display: block;
+}
+
+#middleSection {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 30% 70%;
+}
+
+#middleButtons {
 	display: flex;
+	width: 100%;
+	height: 100%;
 	align-items: center;
 	justify-content: center;
 }
 
-#layerOne {
+#designMockupContainer {
 	width: 100%;
 	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
-	position: relative;
-}
-
-#layerOneVisual {
-	width: 90%;
-	height: 70%;
 	background-color: #fcfcfc;
 	border-radius: 15px 15px 0px 0px;
 	border: 1px solid #f3f3f3;
 	border-bottom: none;
-	padding: 20px;
+	padding: 15px;
 	padding-bottom: 0px;
 	display: grid;
 	grid-template-rows: max-content auto 100px;
@@ -1221,31 +1280,6 @@ h1 {
 	background-color: #f2f2f2;
 	border-radius: 15px 15px 0px 0px;
 	width: 100%;
-}
-
-#layerTwoVisual {
-	position: absolute;
-	z-index: 2;
-	width: 10%;
-	aspect-ratio: 1 / 1;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	left: 12%;
-	top: 70%;
-	display: none;
-}
-
-#layerThreeVisual {
-	position: absolute;
-	z-index: 3;
-	width: 18%;
-	aspect-ratio: 1 / 0.5;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 5px;
-	left: 8%;
-	top: 35%;
-	padding: 25px;
-	display: none;
 }
 
 h6 {
