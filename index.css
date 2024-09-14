@@ -395,7 +395,7 @@ h6 {
 	width: 90%;
 	max-width: 1200px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	grid-column-gap: 20px;
 }
 
@@ -759,6 +759,7 @@ h3 {
 	letter-spacing: -1px;
 	border-radius: 15px;
 	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 10px;
 }
 
 .active, .accordion:hover {
@@ -772,6 +773,7 @@ h3 {
 	overflow: hidden;
 	border-bottom: 1px solid #f3f3f3;
 	transition: max-height 0.2s ease-out;
+	margin-bottom: 10px;
 }
 
 
@@ -942,6 +944,10 @@ footer {
 	display: none;
 }
 
+#mobileServicesButtonContainer {
+	display: none;
+}
+
 }
 
 
@@ -1097,6 +1103,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	width: 80%;
+	margin-bottom: 40px;
 }
 
 #contactBtn {
@@ -1117,20 +1124,7 @@ h1 {
 }
 
 #exploreBtn {
-	font-family: 'Manrope', 'sans-serif';
-	color: #555555;
-	font-size: 1.1rem;
-	font-weight: 600;
-	font-optical-sizing: auto;
-	font-style: normal;
-	border-radius: 5px;
-	background-color: #FFFFFF;
-	padding: 1.1rem 1.3rem;
-	border: 1px solid #D3D3D3;
-	display: flex;
-	grid-gap: 15px;
-	align-items: center;
-	justify-content: center;
+	display: none;
 }
 
 #firstSection {
@@ -1138,7 +1132,7 @@ h1 {
 	background-color: #f9f9f9;
 	width: 90%;
 	aspect-ratio: 1 / 1.2;
-	margin: 5rem 0rem;
+	margin: 0rem 0rem 5rem 0rem;
 	position: relative;
 	display: flex;
 	align-items: center;
@@ -1271,18 +1265,16 @@ h6 {
 }
 
 #companyServicesContent {
-	width: 100%;
+	width: 90%;
 	display: grid;
-	grid-template-rows: repeat(3, max-content);
-	grid-rows-gap: 15px;
-	overflow-x: scroll;
-	padding: 0% 5%;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 20px;
 }
 
 .companyServiceBox {
 	border: 1px solid #dfdfdf;
 	border-radius: 15px;
-	padding: 40px 30px;
+	padding: 30px 25px;
 	display: grid;
 	grid-template-rows: max-content auto;
 	grid-gap: 10px;
@@ -1319,8 +1311,26 @@ h6 {
 	font-style: normal;
 }
 
+#mobileServicesButtonContainer {
+	margin: 40px 0px 0px 0px;
+}
 
-
+#moreServices {
+	font-family: 'Manrope', 'sans-serif';
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 5px;
+	background-color: #6F00FF;
+	padding: 1rem 1.7rem;
+	display: flex;
+	grid-gap: 15px;
+	width: max-content;
+	align-items: center;
+	cursor: pointer;
+}
 
 #secondSection {
 	width: 90%;
@@ -1592,12 +1602,10 @@ h3 {
 
 .accordion {
 	background-color: #ffffff;
-	color: #444;
 	cursor: pointer;
 	padding: 20px 15px;
 	width: 100%;
 	text-align: left;
-	border: none;
 	outline: none;
 	transition: 0.4s;
 	font-family: 'Manrope', 'sans-serif';
@@ -1609,6 +1617,7 @@ h3 {
 	letter-spacing: -1px;
 	border-radius: 15px;
 	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 10px;
 }
 
 .active, .accordion:hover {
@@ -1622,6 +1631,7 @@ h3 {
 	overflow: hidden;
 	border-bottom: 1px solid #f3f3f3;
 	transition: max-height 0.2s ease-out;
+	margin-bottom: 10px;
 }
 
 #languageContainer {
