@@ -402,7 +402,42 @@
 	    </div>
 	 </div>
       
-	 <div id="">
+	 <div id="fourthSection">
+	    <div id="secondTitleContainer">
+	       <h2>Veelgestelde vragen</h2>
+	       <h5>Placeholder placeholder placeholder</h5>	    
+	    </div>
+	    
+	    <div id="accordionContainer">
+	       <div id="accordionContent">
+		  <div class="accordionBox">
+		     <button class="accordion">> Waarom kiezen voor Pixelpartner?</button>
+		     <div class="panel">
+		       <p class="serviceText">Lorem ipsum...</p>
+		     </div>
+		  </div>
+
+		  <button class="accordion">> Wat zijn mijn voordelen?</button>
+		  <div class="panel">
+		    <p class="serviceText">Lorem ipsum...</p>
+		  </div>
+
+		  <button class="accordion">> Hoe verloopt het startproces?</button>
+		  <div class="panel">
+		    <p class="serviceText">Lorem ipsum...</p>
+		  </div>
+		  
+		  <button class="accordion">> Wat zijn mijn voordelen?</button>
+		  <div class="panel">
+		    <p class="serviceText">Lorem ipsum...</p>
+		  </div>
+
+		  <button class="accordion">> Placeholder</button>
+		  <div class="panel">
+		    <p class="serviceText">Lorem ipsum...</p>
+		  </div>
+	       </div>
+	    </div>
 	 </div>
       </div>
    </div>
@@ -430,5 +465,26 @@
       </div>
    </div>
 </footer>
+
+<script>
+   var acc = document.getElementsByClassName("accordion");
+   var i;
+
+   for (i = 0; i < acc.length; i++) {
+     acc[i].addEventListener("click", function() {
+       /* Toggle between adding and removing the "active" class,
+       to highlight the button that controls the panel */
+       this.classList.toggle("active");
+
+       /* Toggle between hiding and showing the active panel */
+       var panel = this.nextElementSibling;
+       if (panel.style.display === "block") {
+	 panel.style.display = "none";
+       } else {
+	 panel.style.display = "block";
+       }
+     });
+   }
+</script>
 
 </html>

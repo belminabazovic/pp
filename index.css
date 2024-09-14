@@ -725,11 +725,60 @@ h3 {
 #fourthSection {
 	width: 90%;
 	max-width: 1200px;
-	display: grid;
-	grid-template-columns: auto 40%;
-	grid-column-gap: 20px;
-	margin: 10rem 0rem;
+	padding-bottom: 10rem;
+	margin-top: 100px;
 }
+
+#accordionContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#accordionContent {
+	max-width: 1000px;
+	width: 90%;
+}
+
+.accordion {
+	background-color: #ffffff;
+	color: #444;
+	cursor: pointer;
+	padding: 30px 25px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1.75rem;
+	font-weight: 700;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -1px;
+	border-radius: 15px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.active, .accordion:hover {
+  background-color: #f7f7f7;
+}
+
+.panel {
+	padding: 30px 25px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+
+
+
+
+
+
 
 #languageContainer {
 	position: fixed;
@@ -1043,7 +1092,7 @@ h1 {
 }
 
 #mainButtons {
-	grid-gap: 15px;
+	grid-gap: 10px;
 	display: flex;
 	flex-direction: column;
 	width: 80%;
@@ -1223,8 +1272,8 @@ h6 {
 #companyServicesContent {
 	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-column-gap: 15px;
+	grid-template-rows: repeat(3, max-content);
+	grid-rows-gap: 15px;
 	overflow-x: scroll;
 	padding: 0% 5%;
 }
@@ -1274,7 +1323,7 @@ h6 {
 
 #secondSection {
 	width: 90%;
-	margin: 5rem 0rem;
+	margin: 10rem 0rem 5rem 0rem;
 }
 
 #secondTitleContainer {
@@ -1525,10 +1574,52 @@ h3 {
 #fourthSection {
 	width: 90%;
 	max-width: 1200px;
-	display: grid;
-	grid-template-columns: auto 40%;
-	grid-column-gap: 20px;
-	margin: 10rem 0rem;
+	padding-bottom: 10rem;
+	margin-top: 100px;
+}
+
+#accordionContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#accordionContent {
+	max-width: 1000px;
+	width: 100%;
+}
+
+.accordion {
+	background-color: #ffffff;
+	color: #444;
+	cursor: pointer;
+	padding: 20px 15px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1.50rem;
+	font-weight: 700;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -1px;
+	border-radius: 15px;
+	border-bottom: 1px solid #f7f7f7;
+}
+
+.active, .accordion:hover {
+  background-color: #f7f7f7;
+}
+
+.panel {
+	padding: 20px 15px;
+	background-color: white;
+	display: none;
+	overflow: hidden;
+	border-bottom: 1px solid #f3f3f3;
 }
 
 #languageContainer {
