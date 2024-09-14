@@ -262,6 +262,9 @@ h1 {
 	display: grid;
 	grid-template-rows: max-content auto 100px;
 	row-gap: 20px;
+	-webkit-box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);	
 }
 
 #visTop {
@@ -275,7 +278,8 @@ h1 {
 
 #visTopLeft {
 	border-radius: 15px;
-	background-color: #f2f2f2;
+	background: rgb(242,242,242);
+	background: linear-gradient(135deg, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 100%);
 	aspect-ratio: 1 / 1;
 	height: 100%; 
 }
@@ -295,7 +299,8 @@ h1 {
 }
 
 #visTopRight {
-	background-color: #f2f2f2;
+	background: rgb(242,242,242);
+	background: linear-gradient(135deg, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 100%);
 	border-radius: 5px;
 	height: 40px;
 	display: flex;
@@ -305,7 +310,7 @@ h1 {
 }
 
 .visText {
-	background-color: #ededed;
+	background-color: #e5e5e5;
 	height: 15px;
 	width: 80px;
 	border-radius: 5px;
@@ -318,8 +323,33 @@ h1 {
 	width: 100%;
 }
 
+.visMidGrid {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
+	row-gap: 10px;
+	padding: 30px 20px;
+}
+
+.visMidText {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+}
+
+.lazyTitle {
+	height: 35px;
+	width: 30%;
+}
+
+.lazyText {
+	height: 15px;
+	width: 70%;
+}
+
 .visBox {
-	background-color: #f2f2f2;
+	background: rgb(242,242,242);
+	background: linear-gradient(135deg, rgba(242,242,242,1) 0%, rgba(235,235,235,1) 100%);
 	border-radius: 15px;
 }
 
@@ -916,7 +946,8 @@ footer {
 }
 
 .dummyBox {
-	background-color: #f5f5f5;
+	background: rgb(245,245,245);
+	background: linear-gradient(135deg, rgba(245,245,245,1) 0%, rgba(242,242,242,1) 100%);
 }
 
 .leftOne {
@@ -1217,7 +1248,7 @@ h1 {
 	padding: 15px;
 	padding-bottom: 0px;
 	display: grid;
-	grid-template-rows: max-content auto 100px;
+	grid-template-rows: max-content auto 60px;
 	row-gap: 10px;
 }
 
@@ -1258,7 +1289,7 @@ h1 {
 }
 
 .visText {
-	background-color: #ededed;
+	background-color: #e5e5e5;
 	height: 15px;
 	width: 80px;
 	border-radius: 5px;
@@ -1269,6 +1300,30 @@ h1 {
 	grid-template-columns: 65% auto;
 	grid-column-gap: 10px;
 	width: 100%;
+}
+
+.visMidGrid {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	flex-direction: column;
+	row-gap: 5px;
+	padding: 10px 10px;
+}
+
+.visMidText {
+	background-color: #e5e5e5;
+	border-radius: 5px;
+}
+
+.lazyTitle {
+	height: 25px;
+	width: 40%;
+}
+
+.lazyText {
+	height: 15px;
+	width: 70%;
 }
 
 .visBox {
