@@ -29,7 +29,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	position: fixed;
 	z-index: 10;
 	left: 0;
 	top: 0;
@@ -79,6 +78,10 @@ nav {
 	padding: 0px 25px;
 }
 
+.navLink:hover .linkBall {
+	visibility: visible;
+}
+
 .linkText {
 	display: flex;
 	align-items: center;
@@ -92,17 +95,10 @@ nav {
 
 .linkBall {
 	border-radius: 50%;
-	background-color: #FFFFFF;
+	background-color: #cccccc;
 	width: 6px;
 	height: 6px;
-}
-
-.linkBall::active {
-	background-color: #6F00FF;
-}
-
-.activeBall {
-	background-color: #6F00FF;
+	visibility: hidden;
 }
 
 #navRight {
@@ -197,7 +193,6 @@ nav {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 100px;
 }
 
 h1 {
@@ -231,6 +226,14 @@ h1 {
 	display: flex;
 	grid-gap: 15px;
 	align-items: center;
+}
+
+#contactBtn:hover {
+	background-color: #7d19ff;
+}
+
+#contactBtn::active {
+	background-color: #7d19ff;
 }
 
 #exploreBtn {
@@ -470,22 +473,18 @@ h5 {
 	border-radius: 15px;
 	height: auto;
 	padding: 60px 40px;
-	border: 1px solid #eeeeee;
+	background-color: #f7f7f7;
 	max-width: 400px;
 }
 
 .mainBox {
 	background-color: #f7f7f7;
-	border: 1px solid #f7f7f7;
 	background-image: url('img/conf.png');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center -12%;
 }
 
-.nonMainBox:hover {
-	border: 1px solid #dfdfdf;
-}
 
 h3 {
 	font-family: 'Manrope', 'sans-serif';
@@ -611,6 +610,24 @@ h3 {
 	margin-top: 5px;
 }
 
+.disclaimerText {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 0.7rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	margin-top: 20px;
+}
+
+.mainBoxColour {
+	color: #FFFFFF;
+}
+
+.premiumBtn {
+	color: #040404;
+	background-color: #FFFFFF;
+}
 
 #thirdSection {
 	width: 90%;
@@ -742,7 +759,6 @@ h3 {
 	font-style: normal;
 	letter-spacing: -1px;
 	border-radius: 15px;
-	border-bottom: 1px solid #f7f7f7;
 	margin-bottom: 10px;
 }
 
@@ -750,12 +766,17 @@ h3 {
   background-color: #f7f7f7;
 }
 
+.accordionBox {
+	border-bottom: 1px solid #dfdfdf;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .panel {
 	padding: 30px 25px;
 	background-color: white;
 	display: none;
 	overflow: hidden;
-	border-bottom: 1px solid #f3f3f3;
 	transition: max-height 0.2s ease-out;
 	margin-bottom: 10px;
 }
@@ -870,14 +891,19 @@ footer {
 	width: 90%;
 	max-width: 1200px;
 	padding: 5rem 0rem;
-	display: grid;
-	grid-template-columns: 1fr 1fr 2fr;
+	display: flex;
 }
 
 .footerColumn {
 	display: flex;
 	flex-direction: column;
 	row-gap: 25px;
+	flex-grow: 1;
+}
+
+.footerCompanyInfo {
+	order: 1;
+	flex-grow: 2;
 }
 
 .footerTop {
@@ -1467,26 +1493,18 @@ h5 {
 	border-radius: 15px;
 	height: auto;
 	padding: 50px 30px;
-	border: 1px solid #eeeeee;
+	background-color: #f7f7f7;
 	width: 100%;
 }
 
 .mainBox {
 	background-color: #f7f7f7;
-	border: 1px solid #f7f7f7;
 	background-image: url('img/conf.png');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 	background-position: center -13%;
 }
 
-.nonMainBox {
-	
-}
-
-.nonMainBox:hover {
-	border: 1px solid #dfdfdf;
-}
 
 h3 {
 	font-family: 'Manrope', 'sans-serif';
@@ -1772,6 +1790,11 @@ footer {
 	display: flex;
 	flex-direction: column;
 	row-gap: 25px;
+	flex-grow: 1;
+}
+
+.footerCompanyInfo {
+	order: 3;
 }
 
 .footerTop {
