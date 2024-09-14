@@ -771,6 +771,7 @@ h3 {
 	display: none;
 	overflow: hidden;
 	border-bottom: 1px solid #f3f3f3;
+	transition: max-height 0.2s ease-out;
 }
 
 
@@ -1575,7 +1576,7 @@ h3 {
 	width: 90%;
 	max-width: 1200px;
 	padding-bottom: 10rem;
-	margin-top: 100px;
+	margin-top: 0px;
 }
 
 #accordionContainer {
@@ -1611,7 +1612,7 @@ h3 {
 }
 
 .active, .accordion:hover {
-  background-color: #f7f7f7;
+	background-color: #f7f7f7;
 }
 
 .panel {
@@ -1620,6 +1621,7 @@ h3 {
 	display: none;
 	overflow: hidden;
 	border-bottom: 1px solid #f3f3f3;
+	transition: max-height 0.2s ease-out;
 }
 
 #languageContainer {
