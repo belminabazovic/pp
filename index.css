@@ -1067,6 +1067,10 @@ footer {
 	justify-content: center;
 }
 
+#contactConsultantBtn {
+	display: none;
+}
+
 }
 
 
@@ -1214,7 +1218,7 @@ h1 {
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
-	margin: 3rem 0rem 2rem 0rem;
+	margin: 3rem 0rem 3rem 0rem;
 	letter-spacing: -2px;
 	text-align: center;
 	width: 90%;
@@ -1229,9 +1233,9 @@ h1 {
 	font-optical-sizing: auto;
 	font-style: normal;
 	text-align: center;
-	margin-bottom: 4rem;
 	text-align: center;
-	width: 85%;	
+	width: 85%;
+	margin-bottom: 3rem;	
 }
 
 #mainButtons {
@@ -1273,7 +1277,7 @@ h1 {
 	grid-template-columns: 5% 90% 5%;
 	grid-row-gap: 0px;
 	overflow: hidden;
-	background-image:url('img/bgM2.jpg');
+	background-image:url('img/bgM2.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
