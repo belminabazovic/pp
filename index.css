@@ -202,9 +202,21 @@ h1 {
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
-	margin: 10rem 0rem 0rem 0rem;
+	margin: 10rem 0rem 2.5rem 0rem;
 	letter-spacing: -3px;
 	text-align: center;
+}
+
+.introText {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	text-align: center;
+	width: 85%;	
 }
 
 #mainButtons {
@@ -1202,10 +1214,24 @@ h1 {
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
-	margin: 4rem 0rem 6rem 0rem;
+	margin: 4rem 0rem 2rem 0rem;
 	letter-spacing: -2px;
 	text-align: center;
 	width: 85%;
+	line-height: 1.2;
+}
+
+.introText {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	margin-bottom: 2rem;
+	text-align: center;
+	width: 85%;	
 }
 
 #mainButtons {
@@ -1517,13 +1543,6 @@ h5 {
 	background-position: center -13%;
 }
 
-.nonMainBox {
-	
-}
-
-.nonMainBox:hover {
-	border: 1px solid #dfdfdf;
-}
 
 h3 {
 	font-family: 'Manrope', 'sans-serif';
