@@ -981,7 +981,7 @@ footer {
 	grid-template-columns: 1fr 60% 1fr;
 	grid-column-gap: 40px;
 	overflow: hidden;
-	background-image:url('img/bg.jpg');
+	background-image:url('img/bg.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1273,7 +1273,7 @@ h1 {
 	grid-template-columns: 5% 90% 5%;
 	grid-row-gap: 0px;
 	overflow: hidden;
-	background-image:url('img/bgM2.jpg');
+	background-image:url('img/bgM2.webp');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -1540,7 +1540,7 @@ h5 {
 	background-image: url('img/conf.png');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-	background-position: center -13%;
+	background-position: center -30%;
 }
 
 
@@ -1595,8 +1595,8 @@ h3 {
 	justify-content: center;
 	width: 100%;
 	margin: 40px 0px 0px 0px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 0px;
+	border-bottom: none;
 }
 
 .tierBtn {
@@ -1626,6 +1626,7 @@ h3 {
 
 .featuresContainer {
 	margin-top: 40px;
+	display: none;
 }
 
 
