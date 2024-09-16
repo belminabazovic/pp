@@ -964,7 +964,7 @@ footer {
 	width: 90%;
 	max-width: 1400px;
 	aspect-ratio: 1 / 0.50;
-	margin: 5rem 0rem 10rem 0rem;
+	margin: 7.5rem 0rem 10rem 0rem;
 	display: grid;
 	grid-template-columns: 1fr 60% 1fr;
 	grid-column-gap: 40px;
@@ -1115,8 +1115,9 @@ nav {
 	height: auto;
 	padding: 3rem 0rem;
 	display: grid;
-	grid-template-columns: max-content auto max-content;
-	grid-column-gap: 20px;
+	grid-template-columns: max-content max-content;
+	grid-column-gap: 0px;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -1165,6 +1166,8 @@ nav {
 #navRight {
 	display: flex;
 	align-items: center;
+	flex-direction: row;
+	column-gap: 20px;
 	justify-content: flex-end;
 }
 
