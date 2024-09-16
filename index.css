@@ -17,7 +17,7 @@ body {
 	min-height: 100vh;
 	height: auto;
 	overflow-x: hidden;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 }
 
 #bodyContainer {
@@ -969,11 +969,16 @@ footer {
 	grid-template-columns: 1fr 60% 1fr;
 	grid-column-gap: 40px;
 	overflow: hidden;
+	background-image:url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 .dummyBox {
 	background: rgb(245,245,245);
 	background: linear-gradient(135deg, rgba(245,245,245,1) 0%, rgba(242,242,242,1) 100%);
+	opacity: 0.5;
 }
 
 .leftOne {
@@ -1233,12 +1238,16 @@ h1 {
 	border-radius: 15px;
 	background-color: #f9f9f9;
 	width: 90%;
-	aspect-ratio: 1 / 1.2;
+	aspect-ratio: 1 / 1.4;
 	margin: 0rem 0rem 2.5rem 0rem;
 	display: grid;
 	grid-template-columns: 5% 90% 5%;
 	grid-row-gap: 0px;
 	overflow: hidden;
+	background-image:url('img/bgM2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 #leftSection {
@@ -1505,6 +1514,13 @@ h5 {
 	background-position: center -13%;
 }
 
+.nonMainBox {
+	
+}
+
+.nonMainBox:hover {
+	border: 1px solid #dfdfdf;
+}
 
 h3 {
 	font-family: 'Manrope', 'sans-serif';
