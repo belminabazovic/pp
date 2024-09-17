@@ -490,11 +490,14 @@
    }
    
    function myFunction() {
+     var body = document.body; 
      var x = document.getElementById("overlayMenu");
+     
      if (x.style.display === "block") {
        x.style.display = "none";
      } else {
        x.style.display = "block";
+       body.style.overflow = "hidden";
      }
    }
 </script>
