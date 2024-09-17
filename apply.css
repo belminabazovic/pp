@@ -1412,7 +1412,24 @@ h1 {
 }
 
 
+#applyProcessContainer {
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-row-gap: 20px;
+}
 
+.applyLineContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.applyLine {
+	background-color: #dfdfdf;
+	width: 2px;
+	height: 40px;
+}
 
 #companyServicesSection {
 	width: 100%;
