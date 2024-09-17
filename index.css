@@ -1110,6 +1110,7 @@ body {
 	overflow-x: hidden;
 }
 
+
 #navContainer {
 	width: 100%;
 	display: flex;
@@ -1117,6 +1118,7 @@ body {
 	align-items: center;
 	border-bottom: 1px solid transparent;
 	position: relative;
+	z-index: 99;
 }
 
 #nav {
@@ -1143,10 +1145,17 @@ nav {
 	background-color: transparent;
 	border: none;
 	outline: none;
-	background-image:url('https://img.icons8.com/material-rounded/24/menu--v1.png');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+.mobileMenu {
+	background-image:url('https://img.icons8.com/material-rounded/24/menu--v1.png');
+}
+
+.mobileMenu.active {
+	background-image:url('https://img.icons8.com/material-rounded/48/delete-sign.png');
 }
 
 #logoContainer {
@@ -1202,6 +1211,23 @@ nav {
 	width: 100%;
 }
 
+
+#overlayMenu {
+	width: 100%;
+	height: calc(100vh - 8rem);
+	background-color: rgba(0,0,0,0.3);
+	z-index: 99;
+	top: 8rem;
+	position: absolute;
+	display: none;
+}
+
+#overlayMenuContent {
+	width: 100%;
+	height: 50%;
+	background-color: #FFFFFF;
+	border-radius: 0px 0px 15px 15px;
+}
 
 
 #contentContainer {

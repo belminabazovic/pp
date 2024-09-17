@@ -80,7 +80,7 @@
 		     <img src="img/nl.png" id="langFlag">
 		  </button>
 		  
-		  <button id="mobileNavBtn"></button>
+		  <button id="mobileNavBtn" class="mobileMenu "onclick="myFunction()"></button>
 	       </div>
 	    </nav>	 
 	 </div>
@@ -108,11 +108,18 @@
 	       </div>
 	    </div>
 	 </div>
+	 
+	 <div id="overlayMenu">
+	    <div id="overlayMenuContent">
+	       
+	    </div>
+	 </div>
+	 
       </div>
       
       <div id="contentContainer">
 	 <h1>De all-in-one webservice voor jouw zaak.<br>Simpel & zorgenloos.</h1>
-	 <p class="introText">Een startende ondernemer, eenmanszaak of kleine business?<br>Wij creëeren een visuele identiteit voor jouw zaak.</p>
+	 <p class="introText">Een startende ondernemer, eenmanszaak of kleine business?<br>Wij creëeren een moderne website voor jouw zaak.</p>
 	 
 	 <div id="firstSection">
 	    <div id="leftSection">
@@ -481,6 +488,22 @@
      });
 
    }
+   
+   function myFunction() {
+     var x = document.getElementById("overlayMenu");
+     if (x.style.display === "block") {
+       x.style.display = "none";
+     } else {
+       x.style.display = "block";
+     }
+   }
+</script>
+<script>
+   $(document).ready(function() {
+     $("#mobileNavBtn").click(function() {
+       $(".mobileMenu").toggleClass("active");
+     });
+   });
 </script>
 
 </html>
