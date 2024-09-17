@@ -14,6 +14,28 @@
    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
+<script>
+   function myFunction() {
+     var body = document.body; 
+     var x = document.getElementById("overlayMenu");
+     
+     if (x.style.display === "block") {
+       x.style.display = "none";
+       body.style.overflow = "auto";
+     } else {
+       x.style.display = "block";
+       body.style.overflow = "hidden";
+     }
+   }
+</script>
+<script>
+   $(document).ready(function() {
+     $("#mobileNavBtn").click(function() {
+       $(".mobileMenu").toggleClass("active");
+     });
+   });
+</script>
+
 <body>
    <div id="languageContainer">
       <div id="languageOverlay">
@@ -467,47 +489,5 @@
       </div>
    </div>
 </footer>
-
-<script>
-   var acc = document.getElementsByClassName("accordion");
-   var i;
-
-   for (i = 0; i < acc.length; i++) {
-     acc[i].addEventListener("click", function() {
-       /* Toggle between adding and removing the "active" class,
-       to highlight the button that controls the panel */
-       this.classList.toggle("active");
-
-       /* Toggle between hiding and showing the active panel */
-       var panel = this.nextElementSibling;
-       if (panel.style.display === "block") {
-	 panel.style.display = "none";
-       } else {
-	 panel.style.display = "block";
-       }
-     });
-
-   }
-   
-   function myFunction() {
-     var body = document.body; 
-     var x = document.getElementById("overlayMenu");
-     
-     if (x.style.display === "block") {
-       x.style.display = "none";
-       body.style.overflow = "auto";
-     } else {
-       x.style.display = "block";
-       body.style.overflow = "hidden";
-     }
-   }
-</script>
-<script>
-   $(document).ready(function() {
-     $("#mobileNavBtn").click(function() {
-       $(".mobileMenu").toggleClass("active");
-     });
-   });
-</script>
 
 </html>
