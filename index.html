@@ -495,9 +495,10 @@
      
      if (x.style.display === "block") {
        x.style.display = "none";
+       body.style.overflow-x = "auto";
      } else {
        x.style.display = "block";
-       body.style.overflow = "hidden";
+       body.style.overflow-x = "hidden";
      }
    }
 </script>
