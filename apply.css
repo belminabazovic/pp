@@ -1461,9 +1461,9 @@ h1 {
 
 .serviceTitleBox {
 	display: flex;
-	align-items: center;
-	flex-direction: row;
-	column-gap: 15px;
+	align-items: flex-start;
+	flex-direction: column;
+	row-gap: 10px;
 }
 
 .serviceTitle {
@@ -1474,6 +1474,21 @@ h1 {
 	font-optical-sizing: auto;
 	font-style: normal;
 	letter-spacing: -1px;
+}
+
+.stepBox {
+	padding: 0.2rem 0.8rem;
+	background-color: #ffb733;
+	border-radius: 5px;
+}
+
+.stepTitle {
+	font-family: 'Manrope', 'sans-serif';
+	color: #FFFFFF;
+	font-size: 0.70rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
 .serviceText {
