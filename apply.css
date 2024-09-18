@@ -1389,9 +1389,11 @@ h1 {
 
 #rightContainer {
 	width: 100%;
-	margin: 5rem 0rem;
+	margin: 7.5rem 0rem;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 
@@ -1622,8 +1624,8 @@ h5 {
 
 .nonPrio {
 	width: 85%;
-	background: rgba(242, 242, 242, 0.50);
-	height: 6.5rem;
+	background: rgba(242, 242, 242, 0.40);
+	height: 7rem;
 }
 
 .nonPrio:last-child {
