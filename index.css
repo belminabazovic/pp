@@ -475,170 +475,6 @@ h5 {
 
 #secondGrid {
 	width: 100%;
-	display: grid;
-	justify-content: center;
-	grid-template-columns: 400px 400px;
-	grid-column-gap: 20px;
-}
-
-.gridBoxContainer {
-	border-radius: 15px;
-	height: auto;
-	padding: 60px 40px;
-	background-color: #f7f7f7;
-	max-width: 400px;
-}
-
-.mainBox {
-	background-color: #f7f7f7;
-	background-image: url('img/conf.png');
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: center -12%;
-}
-
-
-h3 {
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 2.25rem;
-	font-weight: 700;
-	font-optical-sizing: auto;
-	font-style: normal;
-	letter-spacing: -1px;
-	text-align: center;
-}
-
-.tierDescriptionContainer {
-	margin-top: 30px;
-	height: 100px;
-}
-
-.tierDescription {
-	font-family: 'Manrope', 'sans-serif';
-	color: #777777;
-	font-size: 1.1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-	text-align: center;
-}
-
-.price {
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 1.1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
-
-.upper {
-	font-size: 2rem;
-	font-weight: 700;
-}
-
-.boxPriceContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#tierButtonContainer {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	margin: 40px 0px;
-	padding-bottom: 40px;
-	border-bottom: 1px solid #dfdfdf;
-}
-
-.tierBtn {
-	font-family: 'Manrope', 'sans-serif';
-	color: #FFFFFF;
-	font-size: 1.1rem;
-	font-weight: 600;
-	font-optical-sizing: auto;
-	font-style: normal;
-	border-radius: 5px;
-	background-color: #6F00FF;
-	padding: 1rem 1.7rem;
-	display: flex;
-	grid-gap: 15px;
-	width: max-content;
-	align-items: center;
-	cursor: pointer;
-}
-
-.tierBtn:hover {
-	background-color: #7d19ff;
-}
-
-.tierBtn::active {
-	background-color: #7d19ff;
-}
-
-.featuresContainer {
-	margin-top: 40px; 
-}
-
-.featureBox {
-	padding-bottom: 15px;
-	display: grid;
-	grid-template-columns: max-content auto;
-	grid-column-gap: 15px;
-}
-
-.featureTickContainer {
-	height: 100%;
-	display: flex;
-	align-items: center;
-}
-
-.tickTop {
-	align-items: flex-start;
-}
-
-.imgTop {
-	margin-top: 3px;
-}
-
-.feature {	
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
-
-.subFeature {	
-	font-family: 'Manrope', 'sans-serif';
-	color: #777777;
-	font-size: 0.9rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-	margin-top: 5px;
-}
-
-.disclaimerText {
-	font-family: 'Manrope', 'sans-serif';
-	color: #777777;
-	font-size: 0.7rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-	margin-top: 20px;
-}
-
-.mainBoxColour {
-	color: #FFFFFF;
-}
-
-.premiumBtn {
-	color: #040404;
-	background-color: #FFFFFF;
 }
 
 #thirdSection {
@@ -1573,114 +1409,46 @@ h5 {
 
 #secondGrid {
 	width: 100%;
-	display: flex;
-	flex-direction: column-reverse;
-	justify-content: center;
-	grid-row-gap: 30px;
 }
 
-.gridBoxContainer {
-	border-radius: 15px;
-	height: auto;
-	padding: 50px 30px;
-	background-color: #f7f7f7;
-	width: 100%;
+.tabGridButtons {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-.mainBox {
-	background-color: #f7f7f7;
-	background-image: url('img/conf.png');
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	background-position: center -30%;
-}
-
-
-h3 {
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 2rem;
-	font-weight: 700;
-	font-optical-sizing: auto;
-	font-style: normal;
-	letter-spacing: -1px;
-	text-align: center;
-}
-
-.tierDescriptionContainer {
-	margin-top: 30px;
-	height: 100px;
-}
-
-.tierDescription {
+.tabGridButtons button {
 	font-family: 'Manrope', 'sans-serif';
 	color: #777777;
-	font-size: 1.1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-	text-align: center;
-}
-
-.price {
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 1.1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
-
-.upper {
-	font-size: 2rem;
-	font-weight: 700;
-}
-
-.boxPriceContainer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#tierButtonContainer {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	margin: 40px 0px 0px 0px;
-	padding-bottom: 0px;
-	border-bottom: none;
-}
-
-.tierBtn {
-	font-family: 'Manrope', 'sans-serif';
-	color: #FFFFFF;
+	padding: 1.1rem 0rem;
 	font-size: 1.1rem;
 	font-weight: 600;
 	font-optical-sizing: auto;
 	font-style: normal;
-	border-radius: 5px;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: none;
+}
+
+#starterBtn {
+	border-radius: 0px 15px 15px 0px;
+}
+
+#premiumBtn {
+	border-radius: 15px 0px 0px 15px;
+}
+
+.tabGridButtons button:hover {
+	background-color: #f4f4f4;
+}
+
+.tabGridButtons button.active {
 	background-color: #6F00FF;
-	padding: 1rem 1.7rem;
-	display: flex;
-	grid-gap: 15px;
-	width: max-content;
-	align-items: center;
-	cursor: pointer;
+	color: #FFFFFF;
 }
 
-.tierBtn:hover {
-	background-color: #7d19ff;
-}
-
-.tierBtn::active {
-	background-color: #7d19ff;
-}
-
-.featuresContainer {
-	margin-top: 40px;
+.tabcontent {
 	display: none;
 }
-
 
 #thirdSection {
 	width: 90%;
@@ -1787,50 +1555,6 @@ h3 {
 	margin-top: 0px;
 }
 
-#accordionContainer {
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-#accordionContent {
-	max-width: 1000px;
-	width: 100%;
-}
-
-.accordion {
-	background-color: #ffffff;
-	cursor: pointer;
-	padding: 20px 15px;
-	width: 100%;
-	text-align: left;
-	outline: none;
-	transition: 0.4s;
-	font-family: 'Manrope', 'sans-serif';
-	color: #040404;
-	font-size: 1.50rem;
-	font-weight: 700;
-	font-optical-sizing: auto;
-	font-style: normal;
-	letter-spacing: -1px;
-	border-radius: 15px;
-	border-bottom: 1px solid #f7f7f7;
-	margin-bottom: 10px;
-}
-
-.active, .accordion:hover {
-	background-color: #f7f7f7;
-}
-
-.panel {
-	padding: 20px 15px;
-	background-color: white;
-	display: none;
-	overflow: hidden;
-	border-bottom: 1px solid #f3f3f3;
-	transition: max-height 0.2s ease-out;
-	margin-bottom: 10px;
-}
 
 #languageContainer {
 	position: fixed;
