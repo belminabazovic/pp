@@ -1467,6 +1467,47 @@ h5 {
 	border-radius: 15px;
 }
 
+#tierInfoGrid {
+	display: grid;
+	grid-template-rows: max-content max-content;
+	grid-row-gap: 10px;
+	margin-bottom: 15px;
+}
+
+#tierPrice {
+	display: flex;
+	align-items: center;
+}
+
+#tierPrice h3 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 2.2rem;
+	font-weight: 800;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -2px;
+}
+
+#tierPrice h4 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: 0px;
+}
+
+#tierDescription p {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
 .featureBox {
 	display: grid;
 	grid-template-columns: max-content auto;
