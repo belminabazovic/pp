@@ -1375,7 +1375,7 @@ h6 {
 
 #secondSection {
 	width: 90%;
-	margin: 10rem 0rem 5rem 0rem;
+	margin: 7.5rem 0rem 2.5rem 0rem;
 }
 
 #secondTitleContainer {
@@ -1533,16 +1533,39 @@ h5 {
 	font-style: normal;
 }
 
+#tierBtnContainer {
+	width: 100%;
+	margin-top: 15px;
+}
+
+.getTierBtn {
+	font-family: 'Manrope', 'sans-serif';
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 5px;
+	background-color: #6F00FF;
+	padding: 1rem 0rem;
+	width: 100%;
+	display: flex;
+	grid-gap: 15px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
 #promoContainer {
 	border: 1px solid #d2f8d2;
-	margin: 1.25rem 0rem;
+	margin-top: 15px;
 	border-radius: 15px;
 	padding: 30px 25px;
-background: rgb(230,250,230);
-background: -moz-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
-background: -webkit-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
-background: linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6fae6",endColorstr="#e0f2e0",GradientType=1);
+	background: rgb(230,250,230);
+	background: -moz-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+	background: linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6fae6",endColorstr="#e0f2e0",GradientType=1);
 	display: grid;
 	grid-template-rows: max-content max-content;
 	grid-row-gap: 15px;
