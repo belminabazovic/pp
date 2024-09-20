@@ -1558,7 +1558,7 @@ h5 {
 
 #promoContainer {
 	border: 1px solid #d2f8d2;
-	margin-top: 15px;
+	margin: 1.25rem 0rem;
 	border-radius: 15px;
 	padding: 30px 25px;
 	background: rgb(230,250,230);
