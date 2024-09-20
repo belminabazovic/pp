@@ -1409,11 +1409,19 @@ h5 {
 
 #secondGrid {
 	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .tabGridButtons {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
+	width: 90%;
+	grid-column-gap: 5px;
+	padding: 10px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
 }
 
 .tabGridButtons button {
@@ -1424,21 +1432,10 @@ h5 {
 	font-weight: 600;
 	font-optical-sizing: auto;
 	font-style: normal;
+	border-radius: 5px;
 	text-align: center;
-	background-color: #f7f7f7;
-	border: none;
-}
-
-#starterBtn {
-	border-radius: 0px 15px 15px 0px;
-}
-
-#premiumBtn {
-	border-radius: 15px 0px 0px 15px;
-}
-
-.tabGridButtons button:hover {
 	background-color: #f4f4f4;
+	border: none;
 }
 
 .tabGridButtons button.active {
@@ -1449,6 +1446,91 @@ h5 {
 .tabcontent {
 	display: none;
 }
+
+#tabContentContainer {
+	width: 100%;
+	backgrond-color: red;
+}
+
+.tabcontent {
+	margin: 2.5rem 0rem;
+	width: 100%;
+}
+
+.featureGrid {
+	padding: 30px 25px;
+	width: 100%;
+	display: grid;
+	grid-template-rows: repeat(auto, max-content);
+	grid-row-gap: 15px;
+	border: 1px solid #dfdfdf;
+	border-radius: 15px;
+}
+
+.featureBox {
+	display: grid;
+	grid-template-columns: max-content auto;
+	grid-column-gap: 15px;
+}
+
+.featureTickBox {
+	display: flex;
+	align-items: center;
+}
+
+.tickImg {
+	height: 18px;
+	width: auto;
+}
+
+.featureText {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+#promoContainer {
+	border: 1px solid #d2f8d2;
+	margin: 1.25rem 0rem;
+	border-radius: 15px;
+	padding: 30px 25px;
+background: rgb(230,250,230);
+background: -moz-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+background: -webkit-linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+background: linear-gradient(135deg, rgba(230,250,230,1) 0%, rgba(224,242,224,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e6fae6",endColorstr="#e0f2e0",GradientType=1);
+	display: grid;
+	grid-template-rows: max-content max-content;
+	grid-row-gap: 15px;
+}
+
+#promoContainer h3 {
+	font-family: 'Manrope', 'sans-serif';
+	color: #040404;
+	font-size: 1.50rem;
+	font-weight: 800;
+	font-optical-sizing: auto;
+	font-style: normal;
+	letter-spacing: -1px;
+}
+
+#promoContainer p {
+	font-family: 'Manrope', 'sans-serif';
+	color: #777777;
+	font-size: 1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
+
+
+
+
+
 
 #thirdSection {
 	width: 90%;
@@ -1545,6 +1627,23 @@ h5 {
 #reviewsBtnContainer {
 	display: flex;
 	justify-content: center;
+}
+
+.tierBtn {
+	font-family: 'Manrope', 'sans-serif';
+	color: #FFFFFF;
+	font-size: 1.1rem;
+	font-weight: 600;
+	font-optical-sizing: auto;
+	font-style: normal;
+	border-radius: 5px;
+	background-color: #6F00FF;
+	padding: 1rem 1.7rem;
+	display: flex;
+	grid-gap: 15px;
+	width: max-content;
+	align-items: center;
+	cursor: pointer;
 }
 
 
