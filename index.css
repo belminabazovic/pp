@@ -1653,6 +1653,15 @@ h5 {
 	aspect-ratio: 1 / 1;
 	background-color: #eeeeee;
 	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reviewImageContainer img {
+	width: auto;
+	height: 100%;
 }
 
 .reviewClient {
@@ -1691,6 +1700,7 @@ h5 {
 #reviewsBtnContainer {
 	display: flex;
 	justify-content: center;
+	margin-top: 1.25rem;
 }
 
 .tierBtn {
