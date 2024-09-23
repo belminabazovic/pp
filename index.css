@@ -1548,10 +1548,10 @@ h5 {
 	border-radius: 15px;
 	padding: 30px 25px;
 	background: rgb(219,219,255);
-	background: -moz-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
-	background: -webkit-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
-	background: linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dbdbff",endColorstr="#cacafb",GradientType=1);
+	background: -moz-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(209,209,242,1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(209,209,242,1) 100%);
+	background: linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(209,209,242,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dbdbff",endColorstr="#d1d1f2",GradientType=1);
 	display: grid;
 	grid-template-rows: max-content max-content;
 	grid-row-gap: 15px;
