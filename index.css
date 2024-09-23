@@ -1547,12 +1547,11 @@ h5 {
 #contactUsContainer {
 	border-radius: 15px;
 	padding: 30px 25px;
-	border: 1px solid #ffc966;
-	background: rgb(255,210,127);
-	background: -moz-linear-gradient(135deg, rgba(255,210,127,1) 0%, rgba(255,192,76,1) 100%);
-	background: -webkit-linear-gradient(135deg, rgba(255,210,127,1) 0%, rgba(255,192,76,1) 100%);
-	background: linear-gradient(135deg, rgba(255,210,127,1) 0%, rgba(255,192,76,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffd27f",endColorstr="#ffc04c",GradientType=1);
+	background: rgb(219,219,255);
+	background: -moz-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
+	background: -webkit-linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
+	background: linear-gradient(135deg, rgba(219,219,255,1) 0%, rgba(202,202,251,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dbdbff",endColorstr="#cacafb",GradientType=1);
 	display: grid;
 	grid-template-rows: max-content max-content;
 	grid-row-gap: 15px;
@@ -1560,12 +1559,21 @@ h5 {
 
 #contactUsContainer h3 {
 	font-family: 'Manrope', 'sans-serif';
-	color: #FFFFFF;
+	color: #ff2dcc;
 	font-size: 1.50rem;
 	font-weight: 800;
 	font-optical-sizing: auto;
 	font-style: normal;
 	letter-spacing: -1px;
+}
+
+#contactUsContainer p {
+	font-family: 'Manrope', 'sans-serif';
+	color: #7a7acc;
+	font-size: 1.1rem;
+	font-weight: 500;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
 #promoContainer h3 {
@@ -1587,14 +1595,6 @@ h5 {
 	font-style: normal;
 }
 
-#contactUsContainer p {
-	font-family: 'Manrope', 'sans-serif';
-	color: #F9F9F9;
-	font-size: 1.1rem;
-	font-weight: 500;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
 
 
 
