@@ -403,7 +403,6 @@ form {
 	display: grid;
 	grid-template-rows: auto max-content;
 	grid-row-gap: 4rem;
-	padding: 2rem;
 	padding-bottom: 0rem;
 	background-image:url('img/bg2.jpg');
 	background-repeat: no-repeat;
@@ -415,10 +414,12 @@ form {
 	display: grid;
 	grid-template-rows: max-content auto;
 	grid-row-gap: 4rem;
+	justify-items: center;
 }
 
 #introNav {
-	margin-top: 0rem;
+	width: 90%;
+	padding: 2rem 0rem;
 }
 
 #introText {
@@ -427,6 +428,7 @@ form {
 	grid-row-gap: 2rem;
 	height: 100%;
 	align-content: center;
+	width: 90%;
 }
 
 #introText h1 {
@@ -453,7 +455,7 @@ form {
 }
 
 #introRight {
-	height: 100%;
+	height: max-content;
 	width: 100%;
 	position: relative;
 	z-index: 1;
@@ -471,16 +473,16 @@ form {
 #mockupBox {
 	background-color: #ececec;
 	border-radius: 15px 15px 0px 0px;
-	width: 100%;
+	width: 90%;
 	overflow: hidden;
 	height: 100%;
 	-webkit-box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);
 	box-shadow: 0px 0px 78px -18px rgba(0,0,0,0.1);	
 	display: grid;
-	grid-template-rows: max-content 2fr 1fr;
+	grid-template-rows: max-content 1.5fr;
 	grid-row-gap: 10px;
-	padding: 10px;
+	padding: 15px 15px 0px 15px;
 }
 
 #mockGrid {
@@ -492,12 +494,17 @@ form {
 
 .mock {
 	background-color: #e3e3e3;
-	border-radius: 15px 0px 0px 15px;
+	border-radius: 15px 15px 0px 0px;
+	min-height: 100px;
+}
+
+#nonMob {
+	display: none;
 }
 
 .circle {
-	height: 75px;
-	width: 75px;
+	height: 60px;
+	width: 60px;
 	border-radius: 50%;
 	background-color: #e3e3e3;
 }
