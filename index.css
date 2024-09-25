@@ -379,7 +379,6 @@ form {
 	width: 100%;
 	display: grid;
 	height: 100%;
-	padding: 0.65rem;
 	background-colour: red;
 }
 
@@ -397,7 +396,7 @@ form {
 }
 
 #introContainer {
-	border-radius: 15px;
+	border-radius: 0px 0px 15px 15px;
 	background-color: #bfbfbf;
 	overflow: hidden;
 	display: grid;
